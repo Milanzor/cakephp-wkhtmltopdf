@@ -43,8 +43,3 @@ In your Controller methods, you can set the following viewVars:
 
 ### Questions?
 Feel free to make an issue or PR!
-
-
-### To do
-
-- Make the Component so we can generate a pdf without having to use Cake's response
