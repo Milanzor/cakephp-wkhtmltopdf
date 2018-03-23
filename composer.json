@@ -1,0 +1,18 @@
+{
+  "name": "milanzor/cakephp-wkhtmltopdf",
+  "description": "CakePHP 2.x View and Component for WkHtmlToPdf",
+  "license": "MIT",
+  "type": "cakephp-plugin",
+  "authors": [
+    {
+      "name": "Milan van As",
+      "email": "milanvanas@gmail.com"
+    }
+  ],
+  "require": {
+    "cakephp/cakephp": "2.*",
+    "mikehaertl/phpwkhtmltopdf": "^2.3",
+    "h4cc/wkhtmltopdf-amd64": "^0.12.4"
+  }
+}
+
