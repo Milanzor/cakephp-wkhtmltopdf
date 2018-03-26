@@ -23,9 +23,9 @@ class PdfView extends View {
         # Set the binary
         $pdf->binary = WKHTMLToPDF::PATH;
 
-        # Set WkToHtmlPdf_options to pdf if we have them
-        if (isset($this->viewVars['WkToHtmlPdf_options'])) {
-            $pdf->setOptions($this->viewVars['WkToHtmlPdf_options']);
+        # Set WkHtmlToPdf_options to pdf if we have them
+        if (isset($this->viewVars['WkHtmlToPdf_options'])) {
+            $pdf->setOptions($this->viewVars['WkHtmlToPdf_options']);
         }
 
         if (isset($this->viewVars['_save'])) {

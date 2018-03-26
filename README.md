@@ -1,7 +1,7 @@
 [![Packagist](https://img.shields.io/packagist/v/milanzor/cakephp-wkhtmltopdf.svg)](https://packagist.org/packages/milanzor/cakephp-wkhtmltopdf)
 ![license](https://img.shields.io/github/license/milanzor/cakephp-wkhtmltopdf.svg)
 
-# WkToHtmlPdf in CakePHP 2
+# WkHtmlToPdf in CakePHP 2
 
 Provides a View and a Component for generating PDF's through view's in Cake 2. Uses WkHtmlToPdf.
 
@@ -36,7 +36,7 @@ In your Controller methods, you can set the following viewVars:
 - To force a file download: `$this->set('_download', 'filename-without-.pdf-extension');`        
 - To stream the pdf to the browser: `$this->set('_stream', true);`        
 - Save the file: `$this->set('_save', '/full/path/to/file.pdf');`        
-- Additional WkHtmlToPdf options can be passed to the WkHtmlToPdf PHP instance using: `$this->set('WkToHtmlPdf_options', []);`
+- Additional WkHtmlToPdf options can be passed to the WkHtmlToPdf PHP instance using: `$this->set('WkHtmlToPdf_options', []);`
  For these options, see https://github.com/mikehaertl/phpwkhtmltopdf
 
 

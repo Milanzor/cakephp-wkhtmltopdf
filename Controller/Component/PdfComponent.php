@@ -18,10 +18,10 @@ class PdfComponent extends Component {
     }
 
 
-    public function generate($file_path, $WkToHtmlPdf_options = []) {
+    public function generate($file_path, $WkHtmlToPdf_options = []) {
         $view = new PdfView($this->Controller, false);
 
-        $view->set('WkToHtmlPdf_options', $WkToHtmlPdf_options);
+        $view->set('WkHtmlToPdf_options', $WkHtmlToPdf_options);
         $view->set('_save', $file_path);
 
         return $view->render($this->Controller->view, $this->Controller->layout, false);
