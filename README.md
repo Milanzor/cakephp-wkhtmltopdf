@@ -12,6 +12,7 @@ Currently only supports WkHtmlToPdf AMD64!
 
 - `composer require milanzor/cakephp-wkhtmltopdf`
 - Load the plugin in Cake
+- Enable parsing of extension `pdf` in your routes: `Router::parseExtensions('pdf');`
 - Enable the RequestHandler to handle `.pdf` requests using the following snippet in your `(App)Controller`:
 
 ```php
